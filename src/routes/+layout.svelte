@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
 	import NavLink from '$lib/nav-link.svelte';
+	import { slide } from 'svelte/transition';
 	let open = false;
 </script>
 
@@ -40,11 +41,13 @@
 			</button>
 		</div>
 	</div>
-	<div class="{open ? 'block' : 'hidden'} sm:hidden">
-		<NavLink route="/" linkText="Home" />
-		<NavLink route="/personal" linkText="Personal" />
-		<NavLink route="/blog" linkText="Blog" />
-	</div>
+	{#if open}
+		<div class="{open ? 'block' : 'hidden'} sm:hidden" transition:slide>
+			<NavLink route="/" linkText="Home" />
+			<NavLink route="/personal" linkText="Personal" />
+			<NavLink route="/blog" linkText="Blog" />
+		</div>
+	{/if}
 </nav>
 <div class="px-8 bg-gray-800 min-h-screen">
 	<slot />
