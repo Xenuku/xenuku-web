@@ -53,12 +53,20 @@
             "image": "mistborn.jpg"
         },
         {
+            "name":"Harry Potter #3",
+            "image": "harrypotter.jpg"
+        },
+        {
             "name":"Leviathan Wakes",
             "image": "leviathanwakes.jpg"
         },
         {
             "name":"The Primal Hunter #6",
             "image": "theprimalhunter.jpg"
+        },
+        {
+            "name":"Eldest",
+            "image": "eldest.jpg"
         }
     ],
     "favouriteGames": [

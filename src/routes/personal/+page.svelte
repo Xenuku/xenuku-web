@@ -15,14 +15,14 @@
 			<Card url="images/watching/{show.image}" name={show.name} />
 		{/each}
 	</Category>
-	<Category categoryName="Currently Reading / Planning to Read">
-		{#each data.reading as book}
-			<Card url="images/reading/{book.image}" name={book.name} />
-		{/each}
-	</Category>
 	<Category categoryName="Currently Playing / Planning to Play">
 		{#each data.playing as game}
 			<Card url="images/playing/{game.image}" name={game.name} />
+		{/each}
+	</Category>
+	<Category categoryName="Currently Reading / Planning to Read">
+		{#each data.reading as book}
+			<Card url="images/reading/{book.image}" name={book.name} />
 		{/each}
 	</Category>
 	<Category categoryName="Favourite Games">
@@ -41,3 +41,9 @@
 		{/each}
 	</Category>
 </div>
+
+<style>
+	* {
+		font-family: 'Dosis';
+	}
+</style>
