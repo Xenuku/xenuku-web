@@ -10,7 +10,7 @@
 		<a href="/" class="text-xl">Xenuku</a>
 		<div>
 			<a class="hover:text-blue-400" href="/">Home</a>
-			<a class="hover:text-blue-400 pl-2" href="/blog">Blog</a>
+			<a class="hover:text-blue-400 pl-2" href="/projects">Projects</a>
 			<a class="hover:text-blue-400 pl-2" href="/personal">Personal</a>
 		</div>
 	</div>
@@ -41,8 +41,8 @@
 	{#if open}
 		<div class="{open ? 'block' : 'hidden'} sm:hidden" transition:slide>
 			<NavLink route="/" linkText="Home" />
+			<NavLink route="/projects" linkText="Projects" />
 			<NavLink route="/personal" linkText="Personal" />
-			<NavLink route="/blog" linkText="Blog" />
 		</div>
 	{/if}
 </nav>

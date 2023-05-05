@@ -1,21 +1,21 @@
 {
     "watching": [
-      {
-        "name": "One Piece",
-        "image": "onepiece.png"
-      },
-      {
-        "name": "The Seven Deadly Sins",
-        "image": "sevendeadlysins.jpg"
-      },
-      {
-        "name": "Game of Thrones",
-        "image": "got.png"
-      },
-      {
-        "name": "All of Star Trek",
-        "image": "startrek.png"
-      }
+        {
+            "name": "One Piece",
+            "image": "onepiece.png"
+        },
+        {
+            "name": "The Seven Deadly Sins",
+            "image": "sevendeadlysins.jpg"
+        },
+        {
+            "name": "Game of Thrones",
+            "image": "got.png"
+        },
+        {
+            "name": "All of Star Trek",
+            "image": "startrek.png"
+        }
     ],
     "playing": [
         {
