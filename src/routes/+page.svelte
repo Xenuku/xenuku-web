@@ -4,14 +4,10 @@
 
 <div>
 	<h2 class="text-4xl text-center text-[#F8F8F8]">
-		G'day, I'm <span
-			class="bg-gradient-to-r from-emerald-400 to-[#2a98ec] bg-clip-text text-transparent"
-			>Xenuku</span
-		>
-		or
-		<span class="bg-gradient-to-r from-[#2a98ec] to-emerald-400 bg-clip-text text-transparent"
-			>Liam</span
-		>
+		G'day, I'm
+		<span class="bg-gradient-to-r from-emerald-400 to-[#2a98ec] bg-clip-text text-transparent">
+			Xenuku
+		</span>
 	</h2>
 	<!-- <p>
 		My name is Liam. I enjoy building web applications and software. I'm currently a full-time
