@@ -58,5 +58,7 @@
 		<Card url="{lovedMovies}/scottpilgrim.jpg" name="Scott Pilgrim" />
 		<Card url="{lovedMovies}/spaceballs.jpg" name="Spaceballs" />
 		<Card url="{lovedMovies}/spiderverse.png" name="Into the Spider-Verse" />
+		<Card url="{lovedMovies}/sotd.jpg" name="Hot Fuzz" />
+		<Card url="{lovedMovies}/hotfuzz.jpg" name="Shaun of the Dead" />
 	</Category>
 </div>
