@@ -1,12 +1,12 @@
 <script>
 	import Card from '$lib/card.svelte';
 	import Category from '$lib/category.svelte';
-	let watching = 'images/showswatching';
 	let reading = 'images/books';
 	let playing = 'images/gamesplaying';
+	let watching = 'images/showswatching';
 	let lovedShows = 'images/lovedshows';
-	let lovedMovies = 'images/lovedmovies';
 	let lovedGames = 'images/lovedgames';
+	let lovedMovies = 'images/lovedmovies';
 </script>
 
 <svelte:head>
@@ -14,7 +14,7 @@
 </svelte:head>
 
 <div>
-	<h2 class="text-4xl text-center text-blue-400">Personal</h2>
+	<h2 class="text-4xl text-center text-blue-400">A few things I enjoy</h2>
 	<Category categoryName="Currently Watching / Plan to Watch">
 		<Card url="{watching}/onepiece.png" name="One Piece" />
 		<Card url="{watching}/sevendeadlysins.jpg" name="The Seven Deadly Sins" />
