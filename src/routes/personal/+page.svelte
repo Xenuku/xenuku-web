@@ -10,17 +10,17 @@
 
 <div>
 	<h2 class="text-4xl text-center text-blue-400">A few things I enjoy</h2>
-	<Category categoryName="Currently Watching / Plan to Watch">
+	<Category categoryName="Currently Watching / Planning to Watch">
 		{#each data.watching as show}
 			<Card url="images/watching/{show.image}" name={show.name} />
 		{/each}
 	</Category>
-	<Category categoryName="Currently Reading / Plan to Read">
+	<Category categoryName="Currently Reading / Planning to Read">
 		{#each data.reading as book}
 			<Card url="images/reading/{book.image}" name={book.name} />
 		{/each}
 	</Category>
-	<Category categoryName="Currently Playing / Plan to Play">
+	<Category categoryName="Currently Playing / Planning to Play">
 		{#each data.playing as game}
 			<Card url="images/playing/{game.image}" name={game.name} />
 		{/each}

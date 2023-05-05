@@ -85,6 +85,14 @@
         {
             "name": "Supraland",
             "image": "supraland.jpg"
+        },
+        {
+            "name": "Terraria",
+            "image": "terraria.jpg"
+        },
+        {
+            "name": "Slay The Spire",
+            "image": "slaythespire.jpg"
         }
     ],
     "favouriteShows": [
@@ -111,6 +119,14 @@
         {
             "name": "The Office",
             "image": "theoffice.jpg"
+        },
+        {
+            "name": "The Expanse",
+            "image": "theexpanse.jpg"
+        },
+        {
+            "name": "Lost",
+            "image": "lost.jpg"
         }
     ],
     "favouriteMovies": [
