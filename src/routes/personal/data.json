@@ -1,0 +1,150 @@
+{
+    "watching": [
+      {
+        "name": "One Piece",
+        "image": "onepiece.png"
+      },
+      {
+        "name": "The Seven Deadly Sins",
+        "image": "sevendeadlysins.jpg"
+      },
+      {
+        "name": "Game of Thrones",
+        "image": "got.png"
+      },
+      {
+        "name": "All of Star Trek",
+        "image": "startrek.png"
+      }
+    ],
+    "playing": [
+        {
+            "name": "OSRS",
+            "image": "osrs.jpg"
+        },
+        {
+            "name": "Runescape",
+            "image": "runescape.jpg"
+        },
+        {
+            "name": "Hitman 3",
+            "image": "hitman3.jpg"
+        },
+        {
+            "name": "Civilization VI",
+            "image": "civ6.jpeg"
+        },
+        {
+            "name": "Tales of Maj'Eyal",
+            "image": "tome.jpg"
+        }
+    ],
+    "reading": [
+        {
+            "name":"Dungeon Crawler Carl #2",
+            "image": "dcc.jpg"
+        },
+        {
+            "name":"He Who Fights With Monsters",
+            "image": "hwfwm.jpg"
+        },
+        {
+            "name":"Mistborn",
+            "image": "mistborn.jpg"
+        },
+        {
+            "name":"Leviathan Wakes",
+            "image": "leviathanwakes.jpg"
+        },
+        {
+            "name":"The Primal Hunter #6",
+            "image": "theprimalhunter.jpg"
+        }
+    ],
+    "favouriteGames": [
+        {
+            "name": "Deep Rock Galactic",
+            "image": "drg.jpg"
+        },
+        {
+            "name": "Animal Crossing",
+            "image": "animalcrossing.jpg"
+        },
+        {
+            "name": "Banjo Kazooie",
+            "image": "banjokazooie.jpg"
+        },
+        {
+            "name": "Monster Hunter: World",
+            "image": "mhw.jpg"
+        },
+        {
+            "name": "Persona 5 Royal",
+            "image": "p5r.png"
+        },
+        {
+            "name": "Supraland",
+            "image": "supraland.jpg"
+        }
+    ],
+    "favouriteShows": [
+        {
+            "name": "Stargate",
+            "image": "stargate.jpg"
+        },
+        {
+            "name": "DARK",
+            "image": "dark.png"
+        },
+        {
+            "name": "Dragon Ball",
+            "image": "dragonball.png"
+        },
+        {
+            "name": "Invincible",
+            "image": "invincible.png"
+        },
+        {
+            "name": "Farscape",
+            "image": "farscape.jpg"
+        },
+        {
+            "name": "The Office",
+            "image": "theoffice.jpg"
+        }
+    ],
+    "favouriteMovies": [
+        {
+            "name": "Guns Akimbo",
+            "image": "gunsakimbo.jpg"
+        },
+        {
+            "name": "HTTYD",
+            "image": "httyd.jpg"
+        },
+        {
+            "name": "Klaus",
+            "image": "klaus.jpg"
+        },
+        {
+            "name": "Scott Pilgrim",
+            "image": "scottpilgrim.jpg"
+        },
+        {
+            "name": "Spaceballs",
+            "image": "spaceballs.jpg"
+        },
+        {
+            "name": "Into the Spider-Verse",
+            "image": "spiderverse.png"
+        },
+        {
+            "name": "Hot Fuzz",
+            "image": "sotd.jpg"
+        },
+        {
+            "name": "Shaun of the Dead",
+            "image": "hotfuzz.jpg"
+        }
+    ]
+  }
