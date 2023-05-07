@@ -9,7 +9,12 @@
 </svelte:head>
 
 <div>
-	<h2 class="text-4xl text-center text-blue-400">A few things I enjoy</h2>
+	<h2 class="text-4xl text-center text-[#F8F8F8]">
+		Getting
+		<span class="bg-gradient-to-r from-emerald-400 to-[#2a98ec] bg-clip-text text-transparent">
+			Personal
+		</span>
+	</h2>
 	<Category categoryName="Currently Watching / Planning to Watch">
 		{#each data.watching as show}
 			<Card url="images/watching/{show.image}" name={show.name} />

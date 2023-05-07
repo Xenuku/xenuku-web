@@ -7,23 +7,30 @@
             "project_type": "University",
             "alt": false,
             "url": "https://github.com/Xenuku/VicCrash-Viewer",
-            "about": "Team based project with the goal of creating an interactive user interface to visualise and search a large excel based datafile. Includes a user manual and useable on Windows and Linux.",
+            "about": [
+                "This was a project for University, I worked with two other students to create an interactive user interface to visualise and search a large excel based datafile. We also created a user manual using step by step images and simple terminology to instruct in the use of the program.",
+                "We converted the excel sheet to a SQLite database and then used Python and PyQt5 to develop an application to allow users to search and view graphs made with Matplotlib. Users were then able to export an image of the graph or chart, which would then save beside where the application was installed with an appropriate filename generated from the chart results."
+            ],
             "mainTechnology": "Python",
             "technologies": [
                 "PyQt5",
                 "Matplotlib",
                 "SQL, SQLite",
-                "Git and GitHub"
+                "Git and GitHub",
+                "Joplin for the User Manual"
             ]
         },
         {
             "name": "Sneaky Chats",
             "image": "sneakychats.png",
-            "type": "Individual",
+            "type": "Solo",
             "project_type": "University",
             "alt": true,
             "url": "https://github.com/Xenuku/SneakyChats",
-            "about": "Solo project with the goal of creating a real time, multiple room chat application with varying levels of user permissions. Images and chat history are supported per invidual room.",
+            "about": [
+                "This was a project for University, where I was tasked to create a real time, 'multiple room' chat application with varying levels of user permissions. Images and chat history are supported per individual room, users are able to connect to any room they have the permissions for and administrators could set permission levels.",
+                "The front-end was implemented with AngularJS, using TypeScript. The back-end used Node.js and Express.js, with sockets.io on both front and back. I implemented a basic API to authenticate and store user information. Security was not a focus of this assignment."
+            ],
             "mainTechnology": "TypeScript",
             "technologies": [
                 "JavaScript/AngularJS",
@@ -41,7 +48,7 @@
             "project_type": "University",
             "alt": false,
             "url": "PRIVATE",
-            "about": "Team based project for a real world client, creating an framework builder for co-design. Using the original Word Document form the client provided to us, we have converted this form into a web based tool with version control that is modular and able to be exported as a PDF.",
+            "about": ["Team based project for a real world client, creating an framework builder for co-design. Using the original Word Document form the client provided to us, we have converted this form into a web based tool with version control that is modular and able to be exported as a PDF."],
             "mainTechnology": "PHP",
             "technologies": [
                 "Laravel Framework",

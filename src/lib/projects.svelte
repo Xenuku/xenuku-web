@@ -19,22 +19,24 @@
 		</p>
 		<div class="flex flex-wrap min-h-[30vh]">
 			{#if project.alt}
-				<div class="bg-[#4c5666] w-full md:w-1/2 p-5">
-					<ProjectAbout
-						about={project.about}
-						mainTechnology={project.mainTechnology}
-						technologies={project.technologies}
-						type={project.type}
-						projectType={project.project_type} />
-				</div>
-				<div class="bg-[#1a1a1a] w-full md:w-1/2 p-5">
-					<img src="images/projects/{project.image}" alt="Screenshot of {project.name} project" />
+				<div class="flex-wrap-reverse flex lg:flex-wrap">
+					<div class="bg-[#4c5666] w-full lg:w-1/2 p-5">
+						<ProjectAbout
+							about={project.about}
+							mainTechnology={project.mainTechnology}
+							technologies={project.technologies}
+							type={project.type}
+							projectType={project.project_type} />
+					</div>
+					<div class="bg-[#1a1a1a] w-full lg:w-1/2 p-5">
+						<img src="images/projects/{project.image}" alt="Screenshot of {project.name} project" />
+					</div>
 				</div>
 			{:else}
-				<div class="bg-[#1a1a1a] w-full md:w-1/2 p-5">
+				<div class="bg-[#1a1a1a] w-full lg:w-1/2 p-5">
 					<img src="images/projects/{project.image}" alt="Screenshot of {project.name} project" />
 				</div>
-				<div class="bg-[#4c5666] w-full md:w-1/2 p-5">
+				<div class="bg-[#4c5666] w-full lg:w-1/2 p-5">
 					<ProjectAbout
 						about={project.about}
 						mainTechnology={project.mainTechnology}

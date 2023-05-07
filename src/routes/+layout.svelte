@@ -2,7 +2,11 @@
 	import '../app.css';
 	import NavLink from '$lib/nav-link.svelte';
 	import { slide } from 'svelte/transition';
+	import { afterNavigate } from '$app/navigation';
 	let open = false;
+	afterNavigate(() => {
+		open = false;
+	});
 </script>
 
 <nav class="w-full px-8 py-4 bg-slate-500 text-white">

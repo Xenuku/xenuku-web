@@ -33,7 +33,7 @@
 			{:else}
 				<SoloSvg />
 			{/if}
-			{type} project for
+			{type} project
 			{#if projectType == 'University'}
 				<UniSvg />
 			{:else}
@@ -44,7 +44,9 @@
 	</div>
 
 	<p class="my-2">
-		{about}
+		{#each about as line}
+			{line} <br /><br />
+		{/each}
 	</p>
 
 	<div class="font-bold">Technologies</div>
