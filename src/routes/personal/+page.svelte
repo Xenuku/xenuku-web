@@ -41,9 +41,3 @@
 		{/each}
 	</Category>
 </div>
-
-<style>
-	* {
-		font-family: 'Dosis';
-	}
-</style>

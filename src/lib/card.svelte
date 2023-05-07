@@ -9,5 +9,5 @@
 		src={url}
 		alt="Poster for {name}"
 		class="min-h-[300px] max-h-[300px] p-1 hover:scale-105 duration-300 ease-in-out hover:cursor-pointer" />
-	<p class="text-center text-white text-xl">{name}</p>
+	<p class="text-center text-white font-extrabold">{name}</p>
 </div>

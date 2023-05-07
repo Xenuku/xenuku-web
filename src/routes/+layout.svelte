@@ -49,3 +49,9 @@
 <div class="px-8 pt-2">
 	<slot />
 </div>
+
+<style>
+	* {
+		font-family: 'Montserrat';
+	}
+</style>

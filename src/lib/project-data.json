@@ -1,0 +1,57 @@
+{
+    "projects": [
+        {
+            "name": "VicCrash Viewer",
+            "image": "viccrash.png",
+            "type": "Team",
+            "project_type": "University",
+            "alt": false,
+            "url": "https://github.com/Xenuku/VicCrash-Viewer",
+            "about": "Team based project with the goal of creating an interactive user interface to visualise and search a large excel based datafile. Includes a user manual and useable on Windows and Linux.",
+            "mainTechnology": "Python",
+            "technologies": [
+                "PyQt5",
+                "Matplotlib",
+                "SQL, SQLite",
+                "Git and GitHub"
+            ]
+        },
+        {
+            "name": "Sneaky Chats",
+            "image": "sneakychats.png",
+            "type": "Individual",
+            "project_type": "University",
+            "alt": true,
+            "url": "https://github.com/Xenuku/SneakyChats",
+            "about": "Solo project with the goal of creating a real time, multiple room chat application with varying levels of user permissions. Images and chat history are supported per invidual room.",
+            "mainTechnology": "TypeScript",
+            "technologies": [
+                "JavaScript/AngularJS",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Sockets.io",
+                "Git and GitHub"
+            ]
+        },
+        {
+            "name": "HabITech Builder",
+            "image": "viccrash.png",
+            "type": "Team",
+            "project_type": "University",
+            "alt": false,
+            "url": "PRIVATE",
+            "about": "Team based project for a real world client, creating an framework builder for co-design. Using the original Word Document form the client provided to us, we have converted this form into a web based tool with version control that is modular and able to be exported as a PDF.",
+            "mainTechnology": "PHP",
+            "technologies": [
+                "Laravel Framework",
+                "Composer/NPM",
+                "TailwindCSS",
+                "Dompdf",
+                "MySQL",
+                "JavaScript",
+                "Git and GitHub"
+            ]
+        }
+    ]
+  }
