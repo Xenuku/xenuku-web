@@ -9,10 +9,11 @@
 			Xenuku
 		</span>
 	</h2>
-	<div class="bg-[#4c5666] mt-4 p-5 text-[#fbfbfb] flex flex-wrap min-h-[80vh]">
-		<div class="md:w-1/2">
+	<div
+		class="bg-[#4c5666] mt-4 p-5 pb-8 text-[#fbfbfb] text-center min-h-[80vh] w-full md:w-2/3 mx-auto">
+		<div class="md:w-3/4 mx-auto">
 			<img src="images/me.jpg" alt="Me" class="w-36 mx-auto rounded-2xl" />
-			<h1 class="text-[#d4af37] text-2xl">About Me</h1>
+			<h1 class="text-[#d4af37] text-2xl my-4">About Me</h1>
 			My name is Liam. I enjoy building web applications and software. I'm currently a full-time university
 			student, expecting to graduate mid-2023. I first got started with web development by customising
 			forum themes and building small informational websites for myself back in 2010. I found a passion
@@ -22,10 +23,11 @@
 			learn both at university and in my free time, in all types of technologies that interest me. In
 			my spare time I love reading Fantasy and Sci-Fi.
 		</div>
-		<div class="md:w-1/2 text-center">
+		<hr class="w-1/3 mx-auto my-4" />
+		<div class="text-center mx-auto">
 			<div>
-				<h1 class="text-[#d4af37] text-2xl mb-2 mt-10 md:mt-0">Favourite Languages and Tools</h1>
-				<div class="flex flex-wrap gap-2 justify-center m-auto md:w-2/3">
+				<h1 class="text-[#d4af37] text-2xl mb-4 md:mt-0">Favourite Languages and Tools</h1>
+				<div class="flex flex-wrap gap-2 justify-center m-auto md:w-3/4">
 					<img
 						src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
 						alt="GitHub Badge" />
@@ -68,8 +70,8 @@
 				</div>
 			</div>
 			<div>
-				<hr class="w-1/3 mx-auto my-8" />
-				<h1 class="text-[#d4af37] text-2xl my-2">Awards</h1>
+				<hr class="w-1/3 mx-auto mt-8 mb-6" />
+				<h1 class="text-[#d4af37] text-2xl my-4">Awards</h1>
 				<div class="flex flex-wrap gap-2 justify-center">
 					<img
 						src="images/Griffith-Award-for-Academic-Excellence-2020.png"
