@@ -4,7 +4,7 @@
 </script>
 
 <div
-	class="bg-gradient-to-r from-emerald-600 to-[#0275ce] min-h-[300px] max-w-[200px] overflow-hidden">
+	class="bg-gradient-to-r from-emerald-600 to-[#0275ce] min-h-[300px] max-w-[200px] overflow-hidden rounded-md">
 	<img
 		src={url}
 		alt="Poster for {name}"
