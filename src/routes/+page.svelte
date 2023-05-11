@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Xenuku - Home</title>
+	<title>Xenuku | Developer</title>
 </svelte:head>
 
 <div>
@@ -14,6 +14,14 @@
 		<div class="md:w-3/4 mx-auto">
 			<img src="images/me.jpg" alt="Me" class="w-36 mx-auto rounded-2xl" />
 			<h1 class="text-[#d4af37] text-2xl my-4">About Me</h1>
+			<span class="flex justify-center">
+				<a href="https://github.com/xenuku">
+					<img
+						class="mt-2 mb-4"
+						src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+						alt="GitHub Badge" />
+				</a>
+			</span>
 			My name is Liam. I enjoy building web applications and software. I'm currently a full-time university
 			student, expecting to graduate mid-2023. I first got started with web development by customising
 			forum themes and building small informational websites for myself back in 2010. I found a passion
