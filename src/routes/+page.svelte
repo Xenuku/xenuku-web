@@ -36,9 +36,11 @@
 			<div>
 				<h1 class="text-[#d4af37] text-2xl mb-4 md:mt-0">Favourite Languages and Tools</h1>
 				<div class="flex flex-wrap gap-2 justify-center m-auto md:w-3/4">
-					<img
-						src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
-						alt="GitHub Badge" />
+					<a href="https://github.com/xenuku">
+						<img
+							src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
+							alt="GitHub Badge" />
+					</a>
 					<img
 						src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"
 						alt="JavaScript Badge" />
@@ -63,9 +65,11 @@
 					<img
 						src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"
 						alt="TailwindCSS Badge" />
-					<img
-						src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=Codewars&logoColor=white"
-						alt="Codewars Badge" />
+					<a href="https://www.codewars.com/users/Xenuku">
+						<img
+							src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=Codewars&logoColor=white"
+							alt="Codewars Badge" />
+					</a>
 					<img
 						src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
 						alt="Linux Badge" />
