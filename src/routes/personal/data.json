@@ -5,10 +5,6 @@
             "image": "onepiece.png"
         },
         {
-            "name": "Severance",
-            "image": "severance.jpg"
-        },
-        {
             "name": "The Seven Deadly Sins",
             "image": "sevendeadlysins.jpg"
         },
@@ -49,31 +45,31 @@
     ],
     "reading": [
         {
-            "name":"Dungeon Crawler Carl",
+            "name": "Dungeon Crawler Carl",
             "image": "dcc.jpg"
         },
         {
-            "name":"HWFWM",
+            "name": "HWFWM",
             "image": "hwfwm.jpg"
         },
         {
-            "name":"Mistborn",
+            "name": "Mistborn",
             "image": "mistborn.jpg"
         },
         {
-            "name":"Harry Potter #3",
+            "name": "Harry Potter #3",
             "image": "harrypotter.jpg"
         },
         {
-            "name":"Leviathan Wakes",
+            "name": "Leviathan Wakes",
             "image": "leviathanwakes.jpg"
         },
         {
-            "name":"The Primal Hunter #6",
+            "name": "The Primal Hunter #6",
             "image": "theprimalhunter.jpg"
         },
         {
-            "name":"Eldest",
+            "name": "Eldest",
             "image": "eldest.jpg"
         }
     ],
@@ -179,4 +175,4 @@
             "image": "hotfuzz.jpg"
         }
     ]
-  }
+}
