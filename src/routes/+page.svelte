@@ -27,9 +27,9 @@
 			forum themes and building small informational websites for myself back in 2010. I found a passion
 			in what I created and since then I have worked as a web developer building with Wordpress, Laravel,
 			and vanilla PHP. I have since moved further into the JavaScript side of the web, where I am enjoying
-			ReactJS and Svelte. I also like exploring game and mobile application programming. I continue to
-			learn both at university and in my free time, in all types of technologies that interest me. In
-			my spare time I love reading Fantasy and Sci-Fi.
+			Svelte. I also like exploring game and mobile application programming and I continue to learn both
+			at university and in my free time, in all types of technologies that interest me. In my spare time
+			I love reading Fantasy and Sci-Fi.
 		</div>
 		<hr class="w-1/3 mx-auto my-4" />
 		<div class="text-center mx-auto">
