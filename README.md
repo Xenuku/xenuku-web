@@ -1,1 +1,1 @@
-My personal website/portfolio.
+My personal website/portfolio, built with Sveltekit and TailwindCSS.
