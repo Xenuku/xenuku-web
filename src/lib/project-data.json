@@ -49,7 +49,7 @@
             "alt": false,
             "url": "PRIVATE",
             "about": [
-                "This was a team based project for a real world client for my final trimester at University. Our team was tasked with creating a framework builder for co-design. Using the original Word Document version the client provided to us, we have converted this form into a web based tool with version control that is modular and able to be exported as a PDF.",
+                "This was a team based project for a real world client for my final trimester at University. Our team was tasked with creating a framework builder for co-design. Using the original Word Document version the client provided to us, we have converted this form into a web based tool with version control that is modular and able to be exported as a PDF/PNG. There is also an administration section with various statistics and methods to view user information.",
                 "The website features a fully responsive layout with multiple themes available to users. Demonstrated in the screenshot is an early version of the Dark Mode theme. Laravel was chosen to build this application and our team built the website with a focus on security and usability."
             ],
             "mainTechnology": "PHP",
