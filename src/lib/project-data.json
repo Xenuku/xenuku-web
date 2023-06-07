@@ -3,6 +3,7 @@
         {
             "name": "VicCrash Viewer",
             "image": "viccrash.png",
+            "small": "viccrash-small.png",
             "type": "Team",
             "project_type": "University",
             "alt": false,
@@ -21,8 +22,9 @@
             ]
         },
         {
-            "name": "Sneaky Chats",
+            "name": "Sneaky Chat",
             "image": "sneakychats.png",
+            "small": "sneakychats-small.png",
             "type": "Solo",
             "project_type": "University",
             "alt": true,
@@ -44,6 +46,7 @@
         {
             "name": "HabITech Builder",
             "image": "habitec.png",
+            "small": "habitec-small.png",
             "type": "Team",
             "project_type": "University",
             "alt": false,
@@ -64,4 +67,4 @@
             ]
         }
     ]
-  }
+}

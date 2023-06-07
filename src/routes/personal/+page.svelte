@@ -17,32 +17,50 @@
 	</h2>
 	<Category categoryName="Currently Watching / Planning to Watch">
 		{#each data.watching as show}
-			<Card url="images/watching/{show.image}" name={show.name} />
+			<Card
+				small="images/watching/{show.small}"
+				url="images/watching/{show.image}"
+				name={show.name} />
 		{/each}
 	</Category>
 	<Category categoryName="Currently Playing / Planning to Play">
 		{#each data.playing as game}
-			<Card url="images/playing/{game.image}" name={game.name} />
+			<Card
+				small="images/playing/{game.small}"
+				url="images/playing/{game.image}"
+				name={game.name} />
 		{/each}
 	</Category>
 	<Category categoryName="Currently Reading / Planning to Read">
 		{#each data.reading as book}
-			<Card url="images/reading/{book.image}" name={book.name} />
+			<Card
+				small="images/reading/{book.small}"
+				url="images/reading/{book.image}"
+				name={book.name} />
 		{/each}
 	</Category>
 	<Category categoryName="Favourite Games">
 		{#each data.favouriteGames as game}
-			<Card url="images/lovedgames/{game.image}" name={game.name} />
+			<Card
+				small="images/lovedgames/{game.small}"
+				url="images/lovedgames/{game.image}"
+				name={game.name} />
 		{/each}
 	</Category>
 	<Category categoryName="Favourite Shows">
 		{#each data.favouriteShows as show}
-			<Card url="images/lovedshows/{show.image}" name={show.name} />
+			<Card
+				small="images/lovedshows/{show.small}"
+				url="images/lovedshows/{show.image}"
+				name={show.name} />
 		{/each}
 	</Category>
 	<Category categoryName="Favourite Movies">
 		{#each data.favouriteMovies as movie}
-			<Card url="images/lovedmovies/{movie.image}" name={movie.name} />
+			<Card
+				small="images/lovedmovies/{movie.small}"
+				url="images/lovedmovies/{movie.image}"
+				name={movie.name} />
 		{/each}
 	</Category>
 </div>

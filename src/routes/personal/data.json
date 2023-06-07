@@ -2,169 +2,208 @@
     "watching": [
         {
             "name": "One Piece",
-            "image": "onepiece.png"
+            "image": "onepiece.png",
+            "small": "onepiece-small.png"
         },
         {
             "name": "Game of Thrones",
-            "image": "got.png"
+            "image": "got.png",
+            "small": "got-small.png"
         },
         {
             "name": "All of Star Trek",
-            "image": "startrek.png"
+            "image": "startrek.png",
+            "small": "startrek-small.png"
         },
         {
             "name": "Black Clover",
-            "image": "blackclover.png"
+            "image": "blackclover.png",
+            "small": "blackclover-small.png"
         }
     ],
     "playing": [
         {
             "name": "OSRS",
-            "image": "osrs.jpg"
+            "image": "osrs.jpg",
+            "small": "osrs-small.jpg"
         },
         {
             "name": "Runescape",
-            "image": "runescape.jpg"
+            "image": "runescape.jpg",
+            "small": "runescape-small.jpg"
         },
         {
             "name": "CSGO",
-            "image": "csgo.jpg"
+            "image": "csgo.jpg",
+            "small": "csgo-small.jpg"
         },
         {
             "name": "Hitman 3",
-            "image": "hitman3.jpg"
+            "image": "hitman3.jpg",
+            "small": "hitman3-small.jpg"
         },
         {
             "name": "Slay The Spire",
-            "image": "slaythespire.jpg"
+            "image": "slaythespire.jpg",
+            "small": "slaythespire-small.jpg"
         },
         {
             "name": "Terraria",
-            "image": "terraria.png"
+            "image": "terraria.png",
+            "small": "terraria-small.png"
         }
     ],
     "reading": [
         {
-            "name": "Dungeon Crawler Carl",
-            "image": "dcc.jpg"
+            "name": "Soulsmith",
+            "image": "soulsmith.jpg",
+            "small": "soulsmith-small.jpg"
         },
         {
             "name": "HWFWM",
-            "image": "hwfwm.jpg"
+            "image": "hwfwm.jpg",
+            "small": "hwfwm-small.jpg"
         },
         {
             "name": "Mistborn",
-            "image": "mistborn.jpg"
+            "image": "mistborn.jpg",
+            "small": "mistborn-small.jpg"
         },
         {
             "name": "Leviathan Wakes",
-            "image": "leviathanwakes.jpg"
+            "image": "leviathanwakes.jpg",
+            "small": "leviathanwakes-small.jpg"
         },
         {
             "name": "The Primal Hunter #6",
-            "image": "theprimalhunter.jpg"
-        }       
+            "image": "theprimalhunter.jpg",
+            "small": "theprimalhunter-small.jpg"
+        }
     ],
     "favouriteGames": [
         {
             "name": "Deep Rock Galactic",
-            "image": "drg.jpg"
+            "image": "drg.jpg",
+            "small": "drg-small.jpg"
         },
         {
             "name": "Animal Crossing",
-            "image": "animalcrossing.jpg"
+            "image": "animalcrossing.jpg",
+            "small": "animalcrossing-small.jpg"
         },
         {
             "name": "Banjo Kazooie",
-            "image": "banjokazooie.jpg"
+            "image": "banjokazooie.jpg",
+            "small": "banjokazooie-small.jpg"
         },
         {
             "name": "Monster Hunter: World",
-            "image": "mhw.jpg"
+            "image": "mhw.jpg",
+            "small": "mhw-small.jpg"
         },
         {
             "name": "Persona 5 Royal",
-            "image": "p5r.png"
+            "image": "p5r.png",
+            "small": "p5r-small.png"
         },
         {
             "name": "Supraland",
-            "image": "supraland.jpg"
+            "image": "supraland.jpg",
+            "small": "supraland-small.jpg"
         },
         {
             "name": "Terraria",
-            "image": "terraria.png"
+            "image": "terraria.png",
+            "small": "terraria-small.png"
         },
         {
             "name": "Slay The Spire",
-            "image": "slaythespire.jpg"
+            "image": "slaythespire.jpg",
+            "small": "slaythespire-small.jpg"
         }
     ],
     "favouriteShows": [
         {
             "name": "Stargate",
-            "image": "stargate.jpg"
+            "image": "stargate.jpg",
+            "small": "stargate-small.jpg"
         },
         {
             "name": "DARK",
-            "image": "dark.png"
+            "image": "dark.png",
+            "small": "dark-small.png"
         },
         {
             "name": "Dragon Ball",
-            "image": "dragonball.png"
+            "image": "dragonball.png",
+            "small": "dragonball-small.png"
         },
         {
             "name": "Invincible",
-            "image": "invincible.png"
+            "image": "invincible.png",
+            "small": "invincible-small.png"
         },
         {
             "name": "Farscape",
-            "image": "farscape.jpg"
+            "image": "farscape.jpg",
+            "small": "farscape-small.jpg"
         },
         {
             "name": "The Office",
-            "image": "theoffice.jpg"
+            "image": "theoffice.jpg",
+            "small": "theoffice-small.jpg"
         },
         {
             "name": "The Expanse",
-            "image": "theexpanse.jpg"
+            "image": "theexpanse.jpg",
+            "small": "theexpanse-small.jpg"
         },
         {
             "name": "Lost",
-            "image": "lost.jpg"
+            "image": "lost.jpg",
+            "small": "lost-small.jpg"
         }
     ],
     "favouriteMovies": [
         {
             "name": "Guns Akimbo",
-            "image": "gunsakimbo.jpg"
+            "image": "gunsakimbo.jpg",
+            "small": "gunsakimbo-small.jpg"
         },
         {
             "name": "HTTYD",
-            "image": "httyd.jpg"
+            "image": "httyd.jpg",
+            "small": "httyd-small.jpg"
         },
         {
             "name": "Klaus",
-            "image": "klaus.jpg"
+            "image": "klaus.jpg",
+            "small": "klaus-small.jpg"
         },
         {
             "name": "Scott Pilgrim",
-            "image": "scottpilgrim.jpg"
+            "image": "scottpilgrim.jpg",
+            "small": "scottpilgrim-small.jpg"
         },
         {
             "name": "Spaceballs",
-            "image": "spaceballs.jpg"
+            "image": "spaceballs.jpg",
+            "small": "spaceballs-small.jpg"
         },
         {
             "name": "Into the Spider-Verse",
-            "image": "spiderverse.png"
+            "image": "spiderverse.png",
+            "small": "spiderverse-small.png"
         },
         {
             "name": "Hot Fuzz",
-            "image": "sotd.jpg"
+            "image": "hotfuzz.jpg",
+            "small": "hotfuzz-small.jpg"
         },
         {
             "name": "Shaun of the Dead",
-            "image": "hotfuzz.jpg"
+            "image": "sotd.jpg",
+            "small": "sotd-small.jpg"
         }
     ]
 }

@@ -1,10 +1,28 @@
 <script>
 	import data from '$lib/project-data.json';
+	import { onMount } from 'svelte';
 	import ProjectAbout from './project-about.svelte';
+	let wrapper;
+	let imgLoaded = false;
+
+	onMount(() => {
+		let divBlurs = wrapper.querySelectorAll('.blur-div');
+		divBlurs.forEach((div) => {
+			let img = div.querySelector('img');
+			function loaded() {
+				imgLoaded = true;
+			}
+			if (img.complete) {
+				loaded();
+			} else {
+				img.addEventListener('load', loaded());
+			}
+		});
+	});
 </script>
 
 {#each data.projects as project}
-	<div class="mt-8 mb-8">
+	<div class="mt-8 mb-8" bind:this={wrapper}>
 		<h2 class="text-3xl text-center text-[#d4af37]">{project.name}</h2>
 		<p class="text-center my-2">
 			{#if project.url === 'PRIVATE'}
@@ -29,12 +47,28 @@
 							projectType={project.project_type} />
 					</div>
 					<div class="bg-[#1a1a1a] w-full lg:w-1/2 p-5">
-						<img src="images/projects/{project.image}" alt="Screenshot of {project.name} project" />
+						<div
+							class="bg-cover bg-center min-w-full min-h-full blur-div"
+							class:loaded={imgLoaded}
+							style="background-image:url('images/projects/{project.small}')">
+							<img
+								loading="lazy"
+								src="images/projects/{project.image}"
+								alt="Screenshot of {project.name} project" />
+						</div>
 					</div>
 				</div>
 			{:else}
 				<div class="bg-[#1a1a1a] w-full lg:w-1/2 p-5">
-					<img src="images/projects/{project.image}" alt="Screenshot of {project.name} project" />
+					<div
+						class="bg-cover bg-center min-w-full min-h-full blur-div"
+						class:loaded={imgLoaded}
+						style="background-image:url('images/projects/{project.small}')">
+						<img
+							src="images/projects/{project.image}"
+							alt="Screenshot of {project.name} project"
+							loading="lazy" />
+					</div>
 				</div>
 				<div class="bg-[#4c5666] w-full lg:w-1/2 p-5">
 					<ProjectAbout
@@ -48,3 +82,13 @@
 		</div>
 	</div>
 {/each}
+
+<style>
+	.blur-div > img {
+		opacity: 0;
+	}
+	.blur-div.loaded > img {
+		opacity: 1;
+		transition: opacity 1200ms ease-out;
+	}
+</style>

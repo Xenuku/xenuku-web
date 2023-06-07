@@ -9,12 +9,10 @@
 			Xenuku
 		</span>
 	</h2>
-	<div
-		class="bg-[#4c5666] mt-4 p-5 pb-8 text-[#fbfbfb] text-center min-h-[80vh] w-full md:w-2/3 mx-auto">
+	<div class="bg-[#4c5666] mt-4 p-5 pb-8 text-[#fbfbfb] min-h-[80vh] w-full md:w-2/3 mx-auto">
 		<div class="md:w-3/4 mx-auto">
-			<img src="images/me.jpg" alt="Me" class="w-36 mx-auto rounded-2xl" />
-			<h1 class="text-[#d4af37] text-2xl my-4">About Me</h1>
-			<span class="flex justify-center">
+			<h1 class="text-[#d4af37] text-2xl my-4 text-center">About Me</h1>
+			<span class="flex justify-center min-h-[28px]">
 				<a href="https://github.com/xenuku">
 					<img
 						class="mt-2 mb-4"
@@ -22,20 +20,23 @@
 						alt="GitHub Badge" />
 				</a>
 			</span>
-			My name is Liam. I enjoy building web applications and software. I'm currently a full-time university
-			student, expecting to graduate mid-2023. I first got started with web development by customising
-			forum themes and building small informational websites for myself back in 2010. I found a passion
-			in what I created and since then I have worked as a web developer building with Wordpress, Laravel,
-			and vanilla PHP. I have since moved further into the JavaScript side of the web, where I am enjoying
-			Svelte. I also like exploring game and mobile application programming and I continue to learn both
-			at university and in my free time, in all types of technologies that interest me. In my spare time
-			I love reading Fantasy and Sci-Fi.
+			<p class="text-justify">
+				Hello, my name is Liam. I enjoy building web applications and software. I'm currently a
+				full-time university student, expecting to graduate mid-2023. I first got started with web
+				development by customising forum themes and building small informational websites for myself
+				back in 2010. I found a passion in what I created and since then I have worked as a web
+				developer building with Wordpress, Laravel, and vanilla PHP. I have since moved further into
+				the JavaScript side of the web, where I am enjoying Svelte. I also like exploring game and
+				mobile application programming and I continue to learn both at university and in my free
+				time, in all types of technologies that interest me. In my spare time I love reading Fantasy
+				and Sci-Fi.
+			</p>
 		</div>
 		<hr class="w-1/3 mx-auto my-4" />
 		<div class="text-center mx-auto">
 			<div>
 				<h1 class="text-[#d4af37] text-2xl mb-4 md:mt-0">Favourite Languages and Tools</h1>
-				<div class="flex flex-wrap gap-2 justify-center m-auto md:w-3/4">
+				<div class="flex flex-wrap gap-2 justify-center m-auto md:w-3/4 min-h-[65px]">
 					<a href="https://github.com/xenuku">
 						<img
 							src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
@@ -84,15 +85,15 @@
 			<div>
 				<hr class="w-1/3 mx-auto mt-8 mb-6" />
 				<h1 class="text-[#d4af37] text-2xl my-4">Awards</h1>
-				<div class="flex flex-wrap gap-2 justify-center">
+				<div class="flex flex-wrap gap-2 justify-center min-h-[110px]">
 					<img
-						src="images/Griffith-Award-for-Academic-Excellence-2020.png"
+						src="images/frontpage/Griffith-Award-for-Academic-Excellence-2020.png"
 						alt="Griffith Academic Excellence Award 2020" />
 					<img
-						src="images/Griffith-Award-for-Academic-Excellence-2021.png"
+						src="images/frontpage/Griffith-Award-for-Academic-Excellence-2021.png"
 						alt="Griffith Academic Excellence Award 2021" />
 					<img
-						src="images/Griffith-Award-for-Academic-Excellence-2022.png"
+						src="images/frontpage/Griffith-Award-for-Academic-Excellence-2022.png"
 						alt="Griffith Academic Excellence Award 2022" />
 				</div>
 			</div>
