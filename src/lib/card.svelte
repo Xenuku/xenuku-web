@@ -1,11 +1,15 @@
 <script>
-	import { onMount } from 'svelte';
+	import { beforeUpdate, onMount } from 'svelte';
 	import { writable } from 'svelte/store';
 
 	export let name;
 	export let url;
 	export let small;
 	const isLoaded = writable(false);
+	beforeUpdate(() => {
+		const smallPreload = new Image();
+		smallPreload.src = small;
+	});
 
 	onMount(() => {
 		const img = new Image();
@@ -22,7 +26,8 @@
 		class="bg-center bg-cover min-h-[300px] max-h-[300px] min-w-[200px] blur-div {$isLoaded
 			? 'loaded'
 			: ''}"
-		style="background-image:url({small})">
+		style="background-image:url({small})"
+		init>
 		{#if $isLoaded}
 			<img
 				loading="lazy"
