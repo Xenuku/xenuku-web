@@ -108,13 +108,13 @@
         },
         {
             "name": "Farscape",
-            "image": "farscape.jpg",
-            "small": "farscape-small.jpg"
+            "image": "farscape.png",
+            "small": "farscape-small.png"
         },
         {
             "name": "The Office",
-            "image": "theoffice.jpg",
-            "small": "theoffice-small.jpg"
+            "image": "theoffice.png",
+            "small": "theoffice-small.png"
         },
         {
             "name": "The Expanse",
@@ -129,29 +129,29 @@
     ],
     "favouriteMovies": [
         {
-            "name": "Guns Akimbo",
-            "image": "gunsakimbo.jpg",
-            "small": "gunsakimbo-small.jpg"
-        },
-        {
-            "name": "HTTYD",
-            "image": "httyd.jpg",
-            "small": "httyd-small.jpg"
-        },
-        {
-            "name": "Klaus",
-            "image": "klaus.jpg",
-            "small": "klaus-small.jpg"
-        },
-        {
             "name": "Scott Pilgrim",
-            "image": "scottpilgrim.jpg",
-            "small": "scottpilgrim-small.jpg"
+            "image": "scottpilgrim.png",
+            "small": "scottpilgrim-small.png"
+        },
+        {
+            "name": "Guns Akimbo",
+            "image": "gunsakimbo.png",
+            "small": "gunsakimbo-small.png"
+        },
+        {
+            "name": "EEAAO",
+            "image": "eeaao.png",
+            "small": "eeaao-small.png"
+        },
+        {
+            "name": "Swiss Army Man",
+            "image": "swissarmyman.png",
+            "small": "swissarmyman-small.png"
         },
         {
             "name": "Spaceballs",
-            "image": "spaceballs.jpg",
-            "small": "spaceballs-small.jpg"
+            "image": "spaceballs.png",
+            "small": "spaceballs-small.png"
         },
         {
             "name": "Into the Spider-Verse",
