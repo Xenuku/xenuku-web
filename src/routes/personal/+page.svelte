@@ -23,14 +23,14 @@
 				name={show.name} />
 		{/each}
 	</Category>
-	<Category categoryName="Currently Playing / Planning to Play">
+	<!-- <Category categoryName="Currently Playing / Planning to Play">
 		{#each data.playing as game}
 			<Card
 				small="images/playing/{game.small}"
 				url="images/playing/{game.image}"
 				name={game.name} />
 		{/each}
-	</Category>
+	</Category> -->
 	<Category categoryName="Currently Reading / Planning to Read">
 		{#each data.reading as book}
 			<Card
