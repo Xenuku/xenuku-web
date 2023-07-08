@@ -21,15 +21,16 @@
 				</a>
 			</span>
 			<p class="text-justify">
-				Hello, my name is Liam. I enjoy building web applications and software. I'm currently a
-				full-time university student, expecting to graduate mid-2023. I first got started with web
-				development by customising forum themes and building small informational websites for myself
-				back in 2010. I found a passion in what I created and since then I have worked as a web
-				developer building with Wordpress, Laravel, and vanilla PHP. I have since moved further into
-				the JavaScript side of the web, where I am enjoying Svelte. I also like exploring game and
-				mobile application programming and I continue to learn both at university and in my free
-				time, in all types of technologies that interest me. In my spare time I love reading Fantasy
-				and Sci-Fi.
+				Hello, my name is Liam. I enjoy building web applications and software and I am currently
+				waiting for my graduation ceremony where I will receive my Bachelor of Information
+				Technology with a major in Software Development. I first got started with web development by
+				customising forum themes and building small informational websites for myself. I found a
+				passion in what I created and since then I have worked as a web developer building with
+				Wordpress, Laravel, and vanilla PHP. I have since moved further into the JavaScript side of
+				the web, where I am enjoying Svelte. I also like exploring game and mobile application
+				programming and I continue to learn in my free time, in all types of technologies that
+				interest me. I also really enjoy reading Fantasy and Sci-Fi, feel free to send me your
+				recommendations!
 			</p>
 		</div>
 		<hr class="w-1/3 mx-auto my-4" />
