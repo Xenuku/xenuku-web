@@ -1,5 +1,6 @@
 <script>
 	import HobbySvg from './svgs/hobbySvg.svelte';
+	import RecentSvg from './svgs/recentSvg.svelte';
 	import SoloSvg from './svgs/soloSvg.svelte';
 	import TeamSvg from './svgs/teamSvg.svelte';
 	import UniSvg from './svgs/uniSvg.svelte';
@@ -27,19 +28,29 @@
 				alt="VSCode Badge" />
 			<img src={technologySymbols[mainTechnology]} alt="{mainTechnology} logo" /><br />
 		</div>
-		<div class="flex gap-1">
-			{#if type == 'Team'}
-				<TeamSvg />
-			{:else}
-				<SoloSvg />
-			{/if}
-			{type} project
-			{#if projectType == 'University'}
-				<UniSvg />
-			{:else}
-				<HobbySvg />
-			{/if}
-			{projectType}
+		<div class="flex gap-1 flex-wrap">
+			<span class="flex gap-1">
+				{#if type == 'Team'}
+					<TeamSvg />
+				{:else}
+					<SoloSvg />
+				{/if}
+				{type} project
+			</span>
+			<span class="flex gap-1">
+				{#if projectType == 'University'}
+					<UniSvg />
+				{:else}
+					<HobbySvg />
+				{/if}
+				{projectType}
+			</span>
+			<span class="flex gap-1">
+				{#if mainTechnology == 'PHP'}
+					<RecentSvg />
+					Most Recent
+				{/if}
+			</span>
 		</div>
 	</div>
 

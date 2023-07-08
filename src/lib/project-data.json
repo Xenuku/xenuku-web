@@ -1,24 +1,26 @@
 {
     "projects": [
         {
-            "name": "VicCrash Viewer",
-            "image": "viccrash.png",
-            "small": "viccrash-small.png",
+            "name": "HabITech Builder",
+            "image": "habitec.png",
+            "small": "habitec-small.png",
             "type": "Team",
             "project_type": "University",
             "alt": false,
-            "url": "https://github.com/Xenuku/VicCrash-Viewer",
+            "url": "PRIVATE",
             "about": [
-                "This was a project for University, I worked with two other students to create an interactive user interface to visualise and search a large excel based datafile. We also created a user manual using step by step images and simple terminology to instruct in the use of the program.",
-                "We converted the excel sheet to a SQLite database and then used Python and PyQt5 to develop an application to allow users to search and view graphs made with Matplotlib. Users were then able to export an image of the graph or chart, which would then save beside where the application was installed with an appropriate filename generated from the chart results."
+                "This was a team based project for a real world client for my final trimester at University. Our team was tasked with creating a framework builder for co-design. We converted the original static 'Word Document' version the client provided to us into a web based tool with version control. The tool is modular and the result is able to be exported as a PDF. There is also an administration section with various statistics and methods to view user information.",
+                "The website features a fully responsive layout with multiple themes available to users. Demonstrated in the screenshot is an early version of the Dark Mode theme. Laravel was chosen to build this application and our team built the website with a focus on security and usability. The repository is private due to client confidentiality agreements."
             ],
-            "mainTechnology": "Python",
+            "mainTechnology": "PHP",
             "technologies": [
-                "PyQt5",
-                "Matplotlib",
-                "SQL, SQLite",
-                "Git and GitHub",
-                "Joplin for the User Manual"
+                "Laravel Framework",
+                "Composer/NPM",
+                "TailwindCSS",
+                "Dompdf",
+                "MySQL",
+                "JavaScript",
+                "Git and GitHub"
             ]
         },
         {
@@ -44,26 +46,24 @@
             ]
         },
         {
-            "name": "HabITech Builder",
-            "image": "habitec.png",
-            "small": "habitec-small.png",
+            "name": "VicCrash Viewer",
+            "image": "viccrash.png",
+            "small": "viccrash-small.png",
             "type": "Team",
             "project_type": "University",
             "alt": false,
-            "url": "PRIVATE",
+            "url": "https://github.com/Xenuku/VicCrash-Viewer",
             "about": [
-                "This was a team based project for a real world client for my final trimester at University. Our team was tasked with creating a framework builder for co-design. Using the original Word Document version the client provided to us, we have converted this form into a web based tool with version control that is modular and able to be exported as a PDF. There is also an administration section with various statistics and methods to view user information.",
-                "The website features a fully responsive layout with multiple themes available to users. Demonstrated in the screenshot is an early version of the Dark Mode theme. Laravel was chosen to build this application and our team built the website with a focus on security and usability."
+                "This was a project for University, I worked with two other students to create an interactive user interface to visualise and search a large excel based datafile. We also created a user manual using step by step images and simple terminology to instruct in the use of the program.",
+                "We converted the excel sheet to a SQLite database and then used Python and PyQt5 to develop an application to allow users to search and view graphs made with Matplotlib. Users were then able to export an image of the graph or chart, which would then save beside where the application was installed with an appropriate filename generated from the chart results."
             ],
-            "mainTechnology": "PHP",
+            "mainTechnology": "Python",
             "technologies": [
-                "Laravel Framework",
-                "Composer/NPM",
-                "TailwindCSS",
-                "Dompdf",
-                "MySQL",
-                "JavaScript",
-                "Git and GitHub"
+                "PyQt5",
+                "Matplotlib",
+                "SQL, SQLite",
+                "Git and GitHub",
+                "Joplin for the User Manual"
             ]
         }
     ]
