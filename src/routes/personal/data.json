@@ -16,16 +16,16 @@
             "small": "blackclover-small.png"
         },
         {
-            "name": "Supernatural",
-            "image": "supernatural.png",
-            "small": "supernatural-small.png"
+            "name": "24",
+            "image": "24.png",
+            "small": "24-small.png"
         }
     ],
     "reading": [
         {
-            "name": "Skysworn",
-            "image": "skysworn.png",
-            "small": "skysworn-small.png"
+            "name": "Ghostwater",
+            "image": "ghostwater.png",
+            "small": "ghostwater-small.png"
         },
         {
             "name": "HWFWM",
