@@ -23,11 +23,6 @@
     ],
     "reading": [
         {
-            "name": "Reaper",
-            "image": "reaper.png",
-            "small": "reaper-small.png"
-        },
-        {
             "name": "Dreadgod",
             "image": "dreadgod.png",
             "small": "dreadgod-small.png"
