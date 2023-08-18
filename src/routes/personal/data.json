@@ -23,16 +23,6 @@
     ],
     "reading": [
         {
-            "name": "Dreadgod",
-            "image": "dreadgod.png",
-            "small": "dreadgod-small.png"
-        },
-        {
-            "name": "Waybound",
-            "image": "waybound.png",
-            "small": "waybound-small.png"
-        },
-        {
             "name": "Mother of Learning",
             "image": "motheroflearning.png",
             "small": "motheroflearning-small.png"
