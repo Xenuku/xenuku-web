@@ -1,46 +1,24 @@
 {
-    "watching": [
+    "favouriteBooks": [
         {
-            "name": "One Piece",
-            "image": "onepiece.png",
-            "small": "onepiece-small.png"
+            "name": "Cradle Series (All)",
+            "image": "cradle.png",
+            "small": "cradle-small.png"
         },
         {
-            "name": "All of Star Trek",
-            "image": "startrek.png",
-            "small": "startrek-small.png"
+            "name": "Reaper - Cradle #10",
+            "image": "reaper.png",
+            "small": "reaper-small.png"
         },
         {
-            "name": "Black Clover",
-            "image": "blackclover.png",
-            "small": "blackclover-small.png"
+            "name": "The Primal Hunter",
+            "image": "primalhunter.png",
+            "small": "primalhunter-small.png"
         },
         {
-            "name": "24",
-            "image": "24.png",
-            "small": "24-small.png"
-        }
-    ],
-    "reading": [
-        {
-            "name": "Mother of Learning",
-            "image": "motheroflearning.png",
-            "small": "motheroflearning-small.png"
-        },
-        {
-            "name": "HWFWM",
-            "image": "hwfwm.png",
-            "small": "hwfwm-small.png"
-        },
-        {
-            "name": "Mistborn",
-            "image": "mistborn.jpg",
-            "small": "mistborn-small.jpg"
-        },
-        {
-            "name": "Leviathan Wakes",
-            "image": "leviathanwakes.jpg",
-            "small": "leviathanwakes-small.jpg"
+            "name": "Red Rising Saga",
+            "image": "redrising.png",
+            "small": "redrising-small.png"
         }
     ],
     "favouriteGames": [
@@ -97,6 +75,16 @@
             "small": "dark-small.png"
         },
         {
+            "name": "The Expanse",
+            "image": "theexpanse.jpg",
+            "small": "theexpanse-small.jpg"
+        },
+        {
+            "name": "Lost",
+            "image": "lost.jpg",
+            "small": "lost-small.jpg"
+        },
+        {
             "name": "Dragon Ball",
             "image": "dragonball.png",
             "small": "dragonball-small.png"
@@ -115,16 +103,6 @@
             "name": "The Office",
             "image": "theoffice.png",
             "small": "theoffice-small.png"
-        },
-        {
-            "name": "The Expanse",
-            "image": "theexpanse.jpg",
-            "small": "theexpanse-small.jpg"
-        },
-        {
-            "name": "Lost",
-            "image": "lost.jpg",
-            "small": "lost-small.jpg"
         }
     ],
     "favouriteMovies": [
@@ -167,6 +145,50 @@
             "name": "Shaun of the Dead",
             "image": "sotd.jpg",
             "small": "sotd-small.jpg"
+        }
+    ],
+    "watching": [
+        {
+            "name": "One Piece",
+            "image": "onepiece.png",
+            "small": "onepiece-small.png"
+        },
+        {
+            "name": "All of Star Trek",
+            "image": "startrek.png",
+            "small": "startrek-small.png"
+        },
+        {
+            "name": "Black Clover",
+            "image": "blackclover.png",
+            "small": "blackclover-small.png"
+        },
+        {
+            "name": "24",
+            "image": "24.png",
+            "small": "24-small.png"
+        }
+    ],
+    "reading": [
+        {
+            "name": "Mother of Learning",
+            "image": "motheroflearning.png",
+            "small": "motheroflearning-small.png"
+        },
+        {
+            "name": "HWFWM",
+            "image": "hwfwm.png",
+            "small": "hwfwm-small.png"
+        },
+        {
+            "name": "Mistborn",
+            "image": "mistborn.jpg",
+            "small": "mistborn-small.jpg"
+        },
+        {
+            "name": "Leviathan Wakes",
+            "image": "leviathanwakes.jpg",
+            "small": "leviathanwakes-small.jpg"
         }
     ]
 }

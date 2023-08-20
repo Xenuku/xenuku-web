@@ -15,6 +15,38 @@
       Personal
     </span>
   </h2>
+  <Category categoryName="Favourite Books">
+    {#each data.favouriteBooks as book}
+      <Card
+        small="images/lovedbooks/{book.small}"
+        url="images/lovedbooks/{book.image}"
+        name={book.name} />
+    {/each}
+  </Category>
+  <Category categoryName="Favourite Shows">
+    {#each data.favouriteShows as show}
+      <Card
+        small="images/lovedshows/{show.small}"
+        url="images/lovedshows/{show.image}"
+        name={show.name} />
+    {/each}
+  </Category> 
+  <Category categoryName="Favourite Movies">
+    {#each data.favouriteMovies as movie}
+      <Card
+        small="images/lovedmovies/{movie.small}"
+        url="images/lovedmovies/{movie.image}"
+        name={movie.name} />
+    {/each}
+  </Category>
+  <Category categoryName="Favourite Games">
+    {#each data.favouriteGames as game}
+      <Card
+        small="images/lovedgames/{game.small}"
+        url="images/lovedgames/{game.image}"
+        name={game.name} />
+    {/each}
+  </Category>
   <Category categoryName="Currently Watching / Planning to Watch">
     {#each data.watching as show}
       <Card
@@ -29,30 +61,6 @@
         small="images/reading/{book.small}"
         url="images/reading/{book.image}"
         name={book.name} />
-    {/each}
-  </Category>
-  <Category categoryName="Favourite Games">
-    {#each data.favouriteGames as game}
-      <Card
-        small="images/lovedgames/{game.small}"
-        url="images/lovedgames/{game.image}"
-        name={game.name} />
-    {/each}
-  </Category>
-  <Category categoryName="Favourite Shows">
-    {#each data.favouriteShows as show}
-      <Card
-        small="images/lovedshows/{show.small}"
-        url="images/lovedshows/{show.image}"
-        name={show.name} />
-    {/each}
-  </Category>
-  <Category categoryName="Favourite Movies">
-    {#each data.favouriteMovies as movie}
-      <Card
-        small="images/lovedmovies/{movie.small}"
-        url="images/lovedmovies/{movie.image}"
-        name={movie.name} />
     {/each}
   </Category>
 </div>

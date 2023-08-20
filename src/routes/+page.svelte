@@ -29,8 +29,9 @@
         Wordpress, Laravel, and vanilla PHP. I have since moved further into the JavaScript side of
         the web, where I am enjoying Svelte. I also like exploring game and mobile application
         programming and I continue to learn in my free time, in all types of technologies that
-        interest me. I also really enjoy reading Fantasy and Sci-Fi, feel free to send me your
-        recommendations!
+        interest me. I also really enjoy reading Fantasy and Sci-Fi, feel free to 
+        <a href="mailto:books@xenuku.com" class="hover:text-blue-400 text-orange-400">send me</a> 
+        your recommendations!
       </p>
     </div>
     <hr class="w-1/3 mx-auto my-4" />
