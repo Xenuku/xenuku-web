@@ -65,6 +65,28 @@
                 "Git and GitHub",
                 "Joplin for the User Manual"
             ]
+        },
+        {
+            "name": "Personal Website",
+            "image": "xenuku.png",
+            "small": "xenuku-small.png",
+            "type": "Solo",
+            "project_type": "Hobby",
+            "alt": true,
+            "url": "https://github.com/Xenuku/xenuku-web",
+            "about": [
+                "This website you are viewing right now was a personal project of mine to learn Svelte and TailwindCSS. I also learned a lot about lazy-loading and the best way to stop content shifting around on the page while a user is loading images. I wrote a short BASH script to automatically generate small versions of each image using FFmpeg.",
+                "I use JSON to store the data for the projects page and the personal page, and then use Svelte components to build the page from the data. This allows me to not repeat myself and easily add/remove data or update styles with minimal effort."
+            ],
+            "mainTechnology": "Svelte",
+            "technologies": [
+                "JavaScript",
+                "TailwindCSS",
+                "FFmpeg",
+                "Vercel",
+                "BASH",
+                "Git and GitHub"
+            ]
         }
     ]
 }
