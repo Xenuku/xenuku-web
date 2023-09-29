@@ -1,14 +1,14 @@
 {
     "favouriteBooks": [
         {
-            "name": "Cradle Series (All)",
+            "name": "Cradle Series",
             "image": "cradle.png",
             "small": "cradle-small.png"
         },
         {
-            "name": "Reaper - Cradle #10",
-            "image": "reaper.png",
-            "small": "reaper-small.png"
+            "name": "Mistborn",
+            "image": "mistborn.jpg",
+            "small": "mistborn-small.jpg"
         },
         {
             "name": "The Primal Hunter",
@@ -164,26 +164,31 @@
             "small": "blackclover-small.png"
         },
         {
-            "name": "24",
-            "image": "24.png",
-            "small": "24-small.png"
+            "name": "Marvel Movies",
+            "image": "mcu.png",
+            "small": "mcu-small.png"
         }
     ],
     "reading": [
         {
-            "name": "Mother of Learning",
-            "image": "motheroflearning.png",
-            "small": "motheroflearning-small.png"
+            "name": "The Primal Hunter #7",
+            "image": "primalhunter7.png",
+            "small": "primalhunter7-small.png"
+        },
+        {
+            "name": "Wandering Inn",
+            "image": "wanderinginn.png",
+            "small": "wanderinginn-small.png"
+        },
+        {
+            "name": "Well of Ascension",
+            "image": "wellofascension.png",
+            "small": "wellofascension-small.png"
         },
         {
             "name": "HWFWM",
             "image": "hwfwm.png",
             "small": "hwfwm-small.png"
-        },
-        {
-            "name": "Mistborn",
-            "image": "mistborn.jpg",
-            "small": "mistborn-small.jpg"
         },
         {
             "name": "Leviathan Wakes",
