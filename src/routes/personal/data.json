@@ -19,7 +19,13 @@
             "name": "Red Rising Saga",
             "image": "redrising.png",
             "small": "redrising-small.png"
+        },
+        {
+            "name": "HWFWM",
+            "image": "hwfwm1.png",
+            "small": "hwfwm1-small.jpg"
         }
+
     ],
     "favouriteGames": [
         {
@@ -164,16 +170,16 @@
             "small": "blackclover-small.png"
         },
         {
-            "name": "Marvel Movies",
-            "image": "mcu.png",
-            "small": "mcu-small.png"
+            "name": "Farscape",
+            "image": "farscape.png",
+            "small": "farscape-small.png"
         }
     ],
     "reading": [
         {
-            "name": "The Primal Hunter #7",
-            "image": "primalhunter7.png",
-            "small": "primalhunter7-small.png"
+            "name": "The Primal Hunter #8",
+            "image": "primalhunter8.png",
+            "small": "primalhunter8-small.jpg"
         },
         {
             "name": "Wandering Inn",
@@ -186,9 +192,9 @@
             "small": "wellofascension-small.png"
         },
         {
-            "name": "HWFWM",
-            "image": "hwfwm.png",
-            "small": "hwfwm-small.png"
+            "name": "HWFWM 5",
+            "image": "hwfwm5.png",
+            "small": "hwfwm5-small.jpg"
         },
         {
             "name": "Leviathan Wakes",
