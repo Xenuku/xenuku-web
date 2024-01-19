@@ -21,17 +21,16 @@
         </a>
       </span>
       <p class="text-justify">
-        Hello, my name is Liam. I enjoy building web applications and software and I recently graduated
-		with distinction achieving a Bachelor of Information Technology with a major in 
-		Software Development. I first got started with web development by customising forum 
-		themes and building small informational websites for myself. I found a passion
-        in what I created and since then I have worked as a web developer building with
-        Wordpress, Laravel, and vanilla PHP. I have since moved further into the JavaScript side of
-        the web, where I am enjoying Svelte. I also like exploring game and mobile application
-        programming and I continue to learn in my free time, in all types of technologies that
-        interest me. I also really enjoy reading Fantasy and Sci-Fi, feel free to 
-        <a href="mailto:books@xenuku.com" class="hover:text-blue-400 text-orange-400">send me</a> 
-        your recommendations!
+        Hello, my name is Liam. I'm a passionate software developer with a strong focus on web application development. 
+        I graduated with distinction in 2023, earning a Bachelor of Information Technology with a major in Software Development.
+        My journey in web development began by customising forum themes and creating small informational websites for personal projects.
+        I have a decent amount of experience in building web applications using frameworks like Laravel and Django.
+        However, my true passion somewhat lies with JavaScript and its modern frameworks, with Svelte being my current favorite.
+        I am also exploring the Rust programming language after some convincing recommendations by a friend.
+        Currently, I am working as a junior developer for an amazing company, where I continue to learn and grow.
+        In my free time, I enjoy expanding my knowledge in different technologies and reading Fantasy and Sci-Fi.
+        If you have any book recommendations, feel free to 
+        <a href="mailto:books@xenuku.com" class="hover:text-blue-400 text-orange-400">send them my way</a>!
       </p>
     </div>
     <hr class="w-1/3 mx-auto my-4" />
@@ -73,11 +72,14 @@
             src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"
             alt="Linux Badge" />
           <img
-            src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white"
-            alt="Protonmail Badge" />
-          <img
             src="https://img.shields.io/badge/Signal-%23039BE5.svg?&style=for-the-badge&logo=Signal&logoColor=white"
             alt="Signal Badge" />
+          <img
+            src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
+            alt="Node.js badge" />
+          <img 
+            src="https://img.shields.io/badge/fastify-202020?style=for-the-badge&logo=fastify&logoColor=white" 
+            alt="Fastify badge" />
         </div>
       </div>
       <div>
