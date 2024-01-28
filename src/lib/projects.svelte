@@ -50,10 +50,10 @@
             <div
               class="bg-cover bg-center min-w-full min-h-full blur-div"
               class:loaded={imgLoaded}
-              style="background-image:url('images/projects/{project.small}')">
+              style="background-image:url('../images/projects/{project.small}')">
               <img
                 loading="lazy"
-                src="images/projects/{project.image}"
+                src="../images/projects/{project.image}"
                 alt="Screenshot of {project.name} project" />
             </div>
           </div>
@@ -63,9 +63,9 @@
           <div
             class="bg-cover bg-center min-w-full min-h-full blur-div"
             class:loaded={imgLoaded}
-            style="background-image:url('images/projects/{project.small}')">
+            style="background-image:url('../images/projects/{project.small}')">
             <img
-              src="images/projects/{project.image}"
+              src="../images/projects/{project.image}"
               alt="Screenshot of {project.name} project"
               loading="lazy" />
           </div>
