@@ -24,11 +24,11 @@
         Hello, my name is Liam. I'm a passionate software developer with a strong focus on web application development. 
         I graduated with distinction in 2023, earning a Bachelor of Information Technology with a major in Software Development.
         My journey in web development began by customising forum themes and creating small informational websites for personal projects.
-        I have a decent amount of experience in building web applications using frameworks like Laravel and Django.
-        However, my true passion somewhat lies with JavaScript and its modern frameworks, with Svelte being my current favorite.
-        I am also exploring the Rust programming language after some convincing recommendations by a friend.
+        I have a decent amount of experience in building web applications using frameworks like Laravel.
+        However, my interests now lie with JavaScript and its modern frameworks, with Svelte being my current favorite.
+        I am also exploring the GO programming language after some convincing recommendations by a friend.
         Currently, I am working as a junior developer for an amazing company, where I continue to learn and grow.
-        In my free time, I enjoy expanding my knowledge in different technologies and reading Fantasy and Sci-Fi.
+        In my free time, I enjoy expanding my knowledge in different technologies and reading Fantasy, Sci-Fi and LitRPG.
         If you have any book recommendations, feel free to 
         <a href="mailto:books@xenuku.com" class="hover:text-blue-400 text-orange-400">send them my way</a>!
       </p>
@@ -80,6 +80,9 @@
           <img 
             src="https://img.shields.io/badge/fastify-202020?style=for-the-badge&logo=fastify&logoColor=white" 
             alt="Fastify badge" />
+          <img 
+            src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white"
+            alt="Go/Golang badge" />
         </div>
       </div>
       <div>

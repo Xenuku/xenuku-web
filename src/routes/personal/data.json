@@ -192,14 +192,19 @@
             "small": "wellofascension-small.png"
         },
         {
-            "name": "HWFWM 5",
-            "image": "hwfwm5.png",
-            "small": "hwfwm5-small.jpg"
+            "name": "HWFWM 8",
+            "image": "hwfwm8.png",
+            "small": "hwfwm8-small.png"
         },
         {
             "name": "Leviathan Wakes",
             "image": "leviathanwakes.jpg",
             "small": "leviathanwakes-small.jpg"
+        },
+        {
+            "name": "Battlemage Farmer",
+            "image": "battlemage.jpg",
+            "small": "battlemage-small.png"
         }
     ]
 }
