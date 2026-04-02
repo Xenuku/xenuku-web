@@ -6,7 +6,7 @@
             "small": "cradle-small.png"
         },
         {
-            "name": "Mistborn",
+            "name": "Mistborn Era 1",
             "image": "mistborn.jpg",
             "small": "mistborn-small.jpg"
         },
@@ -96,9 +96,9 @@
             "small": "dragonball-small.png"
         },
         {
-            "name": "Invincible",
-            "image": "invincible.png",
-            "small": "invincible-small.png"
+            "name": "Dexter",
+            "image": "dexter.webp",
+            "small": "dexter-small.webp"
         },
         {
             "name": "Farscape",
@@ -106,9 +106,9 @@
             "small": "farscape-small.png"
         },
         {
-            "name": "The Office",
-            "image": "theoffice.png",
-            "small": "theoffice-small.png"
+            "name": "Andor",
+            "image": "andor.webp",
+            "small": "andor-small.webp"
         }
     ],
     "favouriteMovies": [
@@ -160,36 +160,17 @@
             "small": "onepiece-small.png"
         },
         {
-            "name": "All of Star Trek",
-            "image": "startrek.png",
-            "small": "startrek-small.png"
-        },
-        {
-            "name": "Black Clover",
-            "image": "blackclover.png",
-            "small": "blackclover-small.png"
-        },
-        {
-            "name": "Farscape",
-            "image": "farscape.png",
-            "small": "farscape-small.png"
+            "name": "Game of Thrones",
+            "image": "got.webp",
+            "small": "got-small.webp"
         }
+    
     ],
     "reading": [
         {
-            "name": "The Primal Hunter #8",
-            "image": "primalhunter8.png",
-            "small": "primalhunter8-small.jpg"
-        },
-        {
-            "name": "Wandering Inn",
-            "image": "wanderinginn.png",
-            "small": "wanderinginn-small.png"
-        },
-        {
-            "name": "Well of Ascension",
-            "image": "wellofascension.png",
-            "small": "wellofascension-small.png"
+            "name": "The Primal Hunter 10",
+            "image": "primalhunter10.webp",
+            "small": "primalhunter10-small.webp"
         },
         {
             "name": "HWFWM 8",
@@ -197,14 +178,9 @@
             "small": "hwfwm8-small.png"
         },
         {
-            "name": "Leviathan Wakes",
-            "image": "leviathanwakes.jpg",
-            "small": "leviathanwakes-small.jpg"
-        },
-        {
-            "name": "Battlemage Farmer",
-            "image": "battlemage.jpg",
-            "small": "battlemage-small.png"
+            "name": "Elantris",
+            "image": "elantris.webp",
+            "small": "elantris-small.webp"
         }
     ]
 }

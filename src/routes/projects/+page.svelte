@@ -3,12 +3,12 @@
 </script>
 
 <svelte:head>
-  <title>Xenuku - Projects</title>
+  <title>Xenuku | Projects</title>
 </svelte:head>
 
 <h2 class="text-4xl text-center text-[#F8F8F8]">
   Some of my
-  <span class="bg-gradient-to-r from-emerald-400 to-[#2a98ec] bg-clip-text text-transparent">
+  <span class=" inline-block bg-gradient-to-r from-emerald-400 to-[#2a98ec] bg-clip-text text-transparent">
     Projects
   </span>
 </h2>

@@ -1,12 +1,10 @@
 <script>
-  import { beforeUpdate, onMount } from 'svelte';
+  import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
+  let { name, url, small } = $props();
 
-  export let name;
-  export let url;
-  export let small;
   const isLoaded = writable(false);
-  beforeUpdate(() => {
+  $effect.pre(() => {
     const smallPreload = new Image();
     smallPreload.src = small;
   });

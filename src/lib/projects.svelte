@@ -26,7 +26,7 @@
     <h2 class="text-3xl text-center text-[#d4af37]">{project.name}</h2>
     <p class="text-center my-2">
       {#if project.url === 'PRIVATE'}
-        <p class="text-emerald-400">Private Repository</p>
+        <span class="text-emerald-400">Private Repository</span>
       {:else}
         <a class="text-blue-400 hover:text-emerald-400 inline-block" href={project.url}>
           <img
